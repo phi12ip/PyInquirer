@@ -15,14 +15,14 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs \
 
 setup(
     name='PyInquirer',
-    version='1.0.3',
+    version='1.1.1',
     description=(
           'A Python module for collection of common interactive command line user interfaces,'
           ' based on Inquirer.js'
     ),
     license='MIT',
-    url='https://github.com/CITGuru/PyInquirer/',
-    python_requires=">=3.6.1",
+    url='https://github.com/phi12ip/PyInquirer/',
+    python_requires=">=3.10.0",
     classifiers=[
         'Development Status :: 1 - Planning',
         'Natural Language :: English',
@@ -39,9 +39,9 @@ setup(
     keywords='click, prompt-toolkit, cli, command-line, commandline, command-line-interface, python-inquiry, inquirer',
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
-    author='Oyetoke Toby',
-    download_url='https://github.com/CITGuru/PyInquirer/archive/1.0.3.tar.gz',
+    author='Philip McGuire',
+    download_url='https://github.com/phi12ip/PyInquirer/archive/1.1.0.tar.gz',
     install_requires=install_requires,
     dependency_links=dependency_links,
-    author_email='oyetoketoby80@gmail.com',
+    author_email='coderphilip@gmail.com',
 )
